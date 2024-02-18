@@ -98,13 +98,13 @@ def insert_data(name, email, res_score, timestamp, no_of_pages, reco_field, cand
 
 
 st.set_page_config(
-    page_title="Smart Resume Analyzer",
+    page_title="SkillMeld:ML Powered Carrer navigator",
     page_icon='./Logo/SRA_Logo.ico',
 )
 
 
 def run():
-    st.title("Smart Resume Analyser")
+    st.title("SkillMeld:ML Powered Carrer navigator")
     st.sidebar.markdown("# Choose User")
     activities = ["Normal User", "Admin"]
     choice = st.sidebar.selectbox("Choose among the given options:", activities)
